@@ -1,5 +1,6 @@
 # Flix HUB
-
+[![image.png](https://i.postimg.cc/prpWxfBr/image.png)](https://postimg.cc/30Q5FDVQ)
+live at : https://flixihub.netlify.app/
 Flix HUB is your ultimate destination for streaming and subscription services. Enjoy Netflix, Amazon Prime, and more with ease. This project is built using React, TypeScript, and Tailwind CSS, and it leverages Vite for fast development and build processes.
 
 ## Features
