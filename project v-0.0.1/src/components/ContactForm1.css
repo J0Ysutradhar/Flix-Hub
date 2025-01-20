@@ -1,0 +1,98 @@
+.contact-form-container {
+  max-height: 80vh; /* Adjust the height as needed */
+  overflow-y: auto;
+  position: relative;
+}
+
+.scrollable-content {
+  max-height: calc(80vh - 50px); /* Adjust the height as needed */
+  overflow-y: auto;
+  padding-bottom: 60px; /* Space for the fixed submit button */
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #f9f9f9;
+}
+
+.fixed-submit-button {
+  /* Remove any styles related to fixed positioning */
+}
+
+.submit-button {
+  padding: 10px 20px;
+  background-color: #f8fbff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: auto;
+}
+
+.address-container {
+  display: flex;
+  align-items: center;
+}
+
+.address {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  max-width: 300px; /* Adjust as needed */
+}
+
+button {
+  margin-left: 10px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.form-content {
+  flex: 1;
+  overflow-y: auto;
+}
+
+.input-white-bg {
+  background-color: #ffffff; /* White background */
+  color: #f3fbff; /* Black text color */
+}
+
+.contact-form-container {
+  max-height: 80vh; /* Adjust the height as needed */
+  overflow-y: auto;
+  position: relative;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+
+.input-field {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.textarea-field {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+.submit-button {
+  padding: 100px 20px;
+  background-color: #b56d6d;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: auto;
+}
